@@ -26,7 +26,6 @@ def get_structured_output(raw_text):
             "invoice_number": "",
             "customer": "",
             "port_of_loading": "",
-            "container_number": [],
             "date": "",
             "freight_amount": "",
             "freight_payable_at": "",
