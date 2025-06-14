@@ -12,7 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",         # for local dev
-        "https://yourfrontend.com",      # your deployed frontend URL
+        "https://pdf-extractor-ui.onrender.com",      # your deployed frontend URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
